@@ -54,7 +54,7 @@ for caminho in permut:
         menorCusto = custoTotal
         menorCaminho = caminho
 CaminhoOtimo = ' '.join(menorCaminho[1:-1])
-print(f"o menor caminho é: {CaminhoOtimo}\no custo é: {menorCusto} dronometros")
+print(f"o menor caminho é: {CaminhoOtimo}\e o custo é: {menorCusto} dronometros")
 
 
 fim = time.time()
